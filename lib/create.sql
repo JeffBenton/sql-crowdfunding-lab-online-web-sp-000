@@ -5,17 +5,17 @@ CREATE TABLE projects
   funding_goal TEXT,
   start_date TEXT,
   end_date TEXT
-  )
+  );
   
 CREATE TABLE user
   (id INTEGER PRIMARY KEY,
   name TEXT,
   age INTEGER
-  )
+  );
 
 CREATE TABLE pedge
   (id INTEGER PRIMARY KEY,
   amount REAL,
   user_id INTEGER,
   project_id INTEGER
-  )
+  );
