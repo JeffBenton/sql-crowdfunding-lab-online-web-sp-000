@@ -13,7 +13,7 @@ CREATE TABLE users
   age INTEGER
   );
 
-CREATE TABLE pedge
+CREATE TABLE pedges
   (id INTEGER PRIMARY KEY,
   amount REAL,
   user_id INTEGER,
