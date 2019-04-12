@@ -1,1 +1,1 @@
-"sqlite3 < data.sql
+"sqlite3 < data.sql"
