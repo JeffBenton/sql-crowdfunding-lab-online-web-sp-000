@@ -15,6 +15,7 @@ CREATE TABLE user
 
 CREATE TABLE pedge
   (id PRIMARY KEY INTEGER,
-  amount REAL
-  
+  amount REAL,
+  user_id INTEGER,
+  project_id INTEGER
   )
